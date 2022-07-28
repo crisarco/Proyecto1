@@ -1,0 +1,19 @@
+.main-text-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+}
+
+.background-img {
+  background-image: url("../project-assets/hero-section/hero-image.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 50%;
+  background-position: center;
+  position: absolute;
+}
+
