@@ -265,14 +265,14 @@ h5 {
   margin-bottom: 20px;
 }
 
-form {
+.subscribe-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
 }
 
-input {
+.news-input {
   background-image: url(../project-assets/newsletter/icon/mail.svg);
   background-repeat: no-repeat;
   background-position: 30px;
@@ -345,7 +345,7 @@ footer a {
     height: 160px;
   }
 
-  form {
+  .subscribe-container {
     flex-direction: row;
   }
 

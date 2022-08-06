@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Proyecto 1 Circle</title>
     <link rel="stylesheet" type="text/css" href="./styles/main.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/home.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/contactUs.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,16 +17,61 @@
   </head>
   <body>
     <header class="navbar">
-      <div><img class="logo" src="./project-assets/logos/circle.svg" /></div>
+      <div>
+        <img
+          class="logo"
+          src="./project-assets/logos/circle.svg"
+          alt="Logo Circle"
+        />
+      </div>
       <ul class="nav-bar-list">
         <li><a href="homePage.html">Home</a></li>
-        <li><a href="projectPage.html">Projects</a></li>
-        <li><a href="homePage.html">Services</a></li>
+        <li><a href="#project-section">Projects</a></li>
+        <li><a href="#service-section">Services</a></li>
       </ul>
       <div class="contact-button">
         <a href="contactUs.html">Contact Us</a>
       </div>
     </header>
+    <section class="contactUs-form-container">
+      <h1>Contact Us</h1>
+      <form class="contactUs-form">
+        <label for="name">Full Name*</label>
+        <br>
+        <input type="text" id="name" placeholder="Enter your full name">
+        <br>
+        <div class="row-form">
+          <label for="email">Email</label>
+        <br>
+        <input type="email" id="email" placeholder="Enter your email address">
+        <br>
+        <label for="phone">Phone</label>
+        <br>
+        <input type="tel" id="phone" placeholder="Enter your phone number">
+        <br>
+        </div>
+      </form>
+    </section>
+    <footer>
+      <div class="footer-logo-container">
+        <img
+          class="logo"
+          src="./project-assets/logos/circle.svg"
+          alt="Logo Circle"
+        />
+        <p class="footer-address">
+          2972 Westheimer Rd. Santa Ana, Illinois 85486
+        </p>
+      </div>
+      <div class="footer-links">
+        <a href="homePage.html">Team</a>
+        <a href="#service-section">Services</a>
+        <a href="homePage.html">About Us</a>
+        <a href="homePage.html">Press</a>
+        <a href="#project-section">Projects</a>
+        <a href="homePage.html">Privacy Policy</a>
+      </div>
+    </footer>
     <script src="javascript.js"></script>
   </body>
 </html>
