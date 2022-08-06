@@ -16,25 +16,33 @@
   </head>
   <body>
     <header class="navbar">
-      <div><img class="logo" src="./project-assets/logos/circle.svg" /></div>
+      <div>
+        <img
+          class="logo"
+          src="./project-assets/logos/circle.svg"
+          alt="Logo Circle"
+        />
+      </div>
       <ul class="nav-bar-list">
         <li><a href="homePage.html">Home</a></li>
-        <li><a href="projectPage.html">Projects</a></li>
-        <li><a href="homePage.html">Services</a></li>
+        <li><a href="#project-section">Projects</a></li>
+        <li><a href="#service-section">Services</a></li>
       </ul>
       <div class="contact-button">
         <a href="contactUs.html">Contact Us</a>
       </div>
     </header>
-    <div class="main-text-image">
+    <section class="main-text-image">
       <div class="hero-img-container">
         <img
           class="card-img"
           src="../Proyecto1/project-assets/hero-section/card-1.png"
+          alt="Credit card image"
         />
         <img
           class="like-img"
           src="../Proyecto1/project-assets/hero-section/card-2.png"
+          alt="Like image"
         />
       </div>
       <br />
@@ -52,19 +60,37 @@
           <a class="link-grey" href="projectPage.html">See our work</a>
         </div>
       </div>
-    </div>
-    <div class="logos">
-      <img src="../Proyecto1/project-assets/logos/airbnb-logo.svg" />
-      <img src="../Proyecto1/project-assets/logos/google-logo.svg" />
-      <img src="../Proyecto1/project-assets/logos/microsoft-logo.svg" />
-      <img src="../Proyecto1/project-assets/logos/fedex-logo.svg" />
-      <img src="../Proyecto1/project-assets/logos/amazon-logo.svg" />
-    </div>
-    <div class="project-section">
+    </section>
+    <section class="logos">
+      <img
+        src="../Proyecto1/project-assets/logos/airbnb-logo.svg"
+        alt="Logo AirBnb"
+      />
+      <img
+        src="../Proyecto1/project-assets/logos/google-logo.svg"
+        alt="Logo Google"
+      />
+      <img
+        src="../Proyecto1/project-assets/logos/microsoft-logo.svg"
+        alt="Logo Microsoft"
+      />
+      <img
+        src="../Proyecto1/project-assets/logos/fedex-logo.svg"
+        alt="Logo Fedex"
+      />
+      <img
+        src="../Proyecto1/project-assets/logos/amazon-logo.svg"
+        alt="Logo Amazon"
+      />
+    </section>
+    <section class="project-section" id="project-section">
       <h3>Recent Projects</h3>
       <div class="projects-container">
         <div class="project">
-          <img src="../Proyecto1/project-assets/projects-section/1.jpg" />
+          <img
+            src="../Proyecto1/project-assets/projects-section/1.jpg"
+            alt="UI Design & App Development"
+          />
           <h5>Simplify</h5>
           <p>UI Design & App Development</p>
           <br />
@@ -72,7 +98,10 @@
           <a href="./projectPage.html">Learn more</a>
         </div>
         <div class="project">
-          <img src="../Proyecto1/project-assets/projects-section/2.jpg" />
+          <img
+            src="../Proyecto1/project-assets/projects-section/2.jpg"
+            alt="Web Development"
+          />
           <h5>Dashcoin</h5>
           <p>Web Development</p>
           <br />
@@ -80,7 +109,10 @@
           <a href="./projectPage.html">Learn more</a>
         </div>
         <div class="project">
-          <img src="../Proyecto1/project-assets/projects-section/3.jpg" />
+          <img
+            src="../Proyecto1/project-assets/projects-section/3.jpg"
+            alt="User Experience Design"
+          />
           <h5>Vectorify</h5>
           <p>User Experience Design</p>
           <br />
@@ -88,7 +120,126 @@
           <a href="./projectPage.html">Learn more</a>
         </div>
       </div>
-    </div>
+    </section>
+    <section class="testimonial-section">
+      <img
+        id="memoji-1"
+        src="../Proyecto1/project-assets/testimonial-section/memoji-1.png"
+      />
+      <img
+        id="memoji-2"
+        src="../Proyecto1/project-assets/testimonial-section/memoji-2.png"
+      />
+      <img
+        id="memoji-3"
+        src="../Proyecto1/project-assets/testimonial-section/memoji-3.png"
+      />
+      <img
+        id="memoji-4"
+        src="../Proyecto1/project-assets/testimonial-section/memoji-4.png"
+      />
+      <h3 id="h3-testimonial">Hear What Our Clients Have to Say</h3>
+      <p class="yellow-text">
+        “Circle helped us through every stage of our startup. We really enjoyed
+        working with you.”
+      </p>
+      <div class="testimonial-img-text">
+        <img
+          id="testimonial-img"
+          src="../Proyecto1/project-assets/testimonial-section/profile.png"
+        />
+        <div class="testimonial-text">
+          <p class="testimonial-text-1">Kristin Watson</p>
+          <p class="testimonial-text-2">Booking.com</p>
+        </div>
+      </div>
+    </section>
+    <section class="service-section" id="service-section">
+      <h3>Our Services</h3>
+      <div class="service-container">
+        <div class="service">
+          <div class="service-img-cont">
+            <img
+              class="service-img"
+              src="../Proyecto1/project-assets/services-section/icons/1.svg"
+              alt="User Interface Design"
+            />
+          </div>
+          <h5>User Interface Design</h5>
+          <p>
+            Circle provides you with a stunning user interface design that is
+            accessible to everyone.
+          </p>
+          <br />
+          <br />
+          <a href="./projectPage.html">Learn more</a>
+        </div>
+        <div class="service">
+          <div class="service-img-cont">
+            <img
+              class="service-img"
+              src="../Proyecto1/project-assets/services-section/icons/2.svg"
+              alt="User Experience Design"
+            />
+          </div>
+          <h5>User Experience Design</h5>
+          <p>
+            Circle always focuses on delivering the best user experience to your
+            customers.
+          </p>
+          <br />
+          <br />
+          <a href="./projectPage.html">Learn more</a>
+        </div>
+        <div class="service">
+          <div class="service-img-cont">
+            <img
+              class="service-img"
+              src="../Proyecto1/project-assets/services-section/icons/3.svg"
+              alt="Application Development"
+            />
+          </div>
+          <h5>Application Development</h5>
+          <p>
+            We develop high-quality mobile and web applications using the latest
+            technology stack.
+          </p>
+          <br />
+          <br />
+          <a href="./projectPage.html">Learn more</a>
+        </div>
+      </div>
+    </section>
+    <section class="newsletter-section">
+      <div class="newsletter-container">
+        <h3>Do you have any questions?</h3>
+        <p>Let us help you!</p>
+        <form class="subscribe-container">
+          <input type="email" value="Enter your email" />
+          <button class="Submit-button">Subscribe</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-logo-container">
+        <img
+          class="logo"
+          src="./project-assets/logos/circle.svg"
+          alt="Logo Circle"
+        />
+        <p class="footer-address">
+          2972 Westheimer Rd. Santa Ana, Illinois 85486
+        </p>
+      </div>
+      <div class="footer-links">
+        <a href="homePage.html">Team</a>
+        <a href="#service-section">Services</a>
+        <a href="homePage.html">About Us</a>
+        <a href="homePage.html">Press</a>
+        <a href="#project-section">Projects</a>
+        <a href="homePage.html">Privacy Policy</a>
+      </div>
+    </footer>
     <script src="javascript.js"></script>
   </body>
 </html>
