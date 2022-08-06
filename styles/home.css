@@ -20,6 +20,8 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
 }
 
 .hero-img {
@@ -298,12 +300,12 @@ footer a {
 }
 
 .footer-links {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-bottom: 30px;
-    gap: 50px;
-    text-align: center;
-  }
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 30px;
+  gap: 50px;
+  text-align: center;
+}
 
 @media screen and (min-width: 800px) {
   .main-text-image {
@@ -366,5 +368,4 @@ footer a {
     padding-left: 15px;
     padding-right: 15px;
   }
-
 }
