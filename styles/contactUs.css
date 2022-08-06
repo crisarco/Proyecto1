@@ -1,0 +1,34 @@
+.contactUs-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 80px;
+  width: 100%;
+}
+
+.contactUs-form label {
+  font-size: 17px;
+}
+
+.contactUs-form input {
+  padding: 0;
+  padding-left: 30px;
+  margin-top: 10px;
+  background-color: rgb(107, 112, 141, 0.1);
+  font-size: 15px;
+  width: 100%;
+}
+
+@media screen and (min-width: 800px) {
+  .contactUs-form-container {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  .row-form {
+    display: flex;
+    flex-direction: row;
+  }
+}
