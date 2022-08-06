@@ -7,11 +7,15 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #514d67;
   font-size: 20px;
-  background-color: #F2F4FC;
+  background-color: #f2f4fc;
 }
 
 .navbar {
@@ -80,15 +84,35 @@ h1 {
 h3 {
   font-style: normal;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 40px;
   line-height: 46.88px;
 }
 
 h5 {
   font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
+  font-weight: 700;
+  font-size: 19px;
   line-height: 28.13px;
+}
+
+input {
+  font-family: "Roboto", sans-serif;
+  color: #514d67;
+  font-size: 15px;
+  width: 300px;
+  height: 60px;
+  padding-left: 70px;
+  background-color: #f4f6fc;
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  width: 190px;
+  height: 60px;
+  text-align: center;
+  background-color: #072ac8;
 }
 
 @media screen and (min-width: 800px) {
@@ -100,7 +124,6 @@ h5 {
 
   .navbar {
     height: 122px;
-    
   }
 
   .contact-button,
@@ -108,17 +131,16 @@ h5 {
     width: auto;
     border-bottom: none;
   }
-
 }
 
 @media screen and (min-width: 1080px) {
   body {
     padding: 0 100px;
   }
-  
+
   h1 {
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 45px;
+    line-height: 50px;
   }
 
   h3 {
@@ -129,4 +151,3 @@ h5 {
     justify-content: space-between;
   }
 }
-
