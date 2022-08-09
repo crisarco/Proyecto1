@@ -16,19 +16,32 @@
   padding: 0;
   padding-left: 30px;
   margin-top: 10px;
+  margin-bottom: 30px;
   background-color: rgb(107, 112, 141, 0.1);
   font-size: 15px;
   width: 100%;
 }
 
-@media screen and (min-width: 800px) {
-  .contactUs-form-container {
-    padding-left: 70px;
-    padding-right: 70px;
-  }
+.message {
+  height: 200px;
+}
 
+.message::placeholder {
+  transform: translateY(-65px);
+}
+
+.submit-button {
+  width: 100%;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+@media screen and (min-width: 800px) {
+  
   .row-form {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
   }
 }
