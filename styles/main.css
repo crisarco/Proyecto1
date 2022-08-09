@@ -23,10 +23,12 @@ body {
   font-weight: 500;
   font-size: 17px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
+  margin-left: 30px;
+  padding-right: 50px;
+  margin-top: 20px;
 }
 
 .nav-bar-list {
@@ -115,7 +117,19 @@ button {
   background-color: #072ac8;
 }
 
-@media screen and (min-width: 800px) {
+.lanzador-menu {
+  width: 20px;
+  height: 20px;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+.lanzador-menu:link,
+.lanzador-menu:visited {
+  color: #ffffff;
+}
+
+@media screen and (min-width: 801px) {
   .navbar,
   .nav-bar-list {
     flex-direction: row;
@@ -130,6 +144,10 @@ button {
   .nav-bar-list li {
     width: auto;
     border-bottom: none;
+  }
+
+  .lanzador-menu {
+    display: none;
   }
 }
 
@@ -149,5 +167,31 @@ button {
 
   .navbar {
     justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .js .nav-bar-list {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+    position: absolute;
+    background-color: #ffffff;
+    margin-top: 200px;
+  }
+
+  .js .nav-bar-list a {
+    padding: 5px 10px;
+    color: #514d67;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+  }
+
+  .js .nav-bar-list.menu-desplegado {
+    max-height: 300px;
+    margin-top: 200px;
+  }
+
+  .js .contact-button {
+    width: 150px;
   }
 }
