@@ -44,7 +44,12 @@
       <form class="contactUs-form">
         <label for="name">Full Name*</label>
         <br />
-        <input type="text" id="name" placeholder="Enter your full name" />
+        <input
+          type="text"
+          id="name"
+          placeholder="Enter your full name"
+          required
+        />
         <br />
         <div class="row-form">
           <div class="email-input">
@@ -54,6 +59,7 @@
               type="email"
               id="email"
               placeholder="Enter your email address"
+              required
             />
           </div>
           <div class="phone-input">
@@ -62,6 +68,7 @@
               type="tel"
               id="phone"
               placeholder="Enter your phone number"
+              required
             />
           </div>
         </div>
@@ -72,8 +79,9 @@
           id="message"
           class="message"
           placeholder="Write your message here ...."
+          required
         />
-        <br>
+        <br />
         <button class="submit-button">Submit</button>
       </form>
     </section>
