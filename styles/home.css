@@ -46,8 +46,8 @@
 }
 
 .card-img {
-  width: 260px;
-  height: 260px;
+  width: 240px;
+  height: 240px;
   grid-column: 1;
   grid-row: 1;
 }
@@ -396,7 +396,7 @@ footer a {
   }
 }
 
-@media screen and (min-width: 200px) and (max-width: 650px) {
+@media screen and (min-width: 200px) and (max-width: 550px) {
   .hero-img-container {
     grid-template-columns: 1fr 1fr;
   }
